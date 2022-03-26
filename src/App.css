@@ -1,5 +1,9 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +39,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.text-red{
+  color: red;
+}
+.header-component{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column ;
+  height: 100px;
+  background-color: lightgray;
+}
+.footer-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(194, 193, 193);
+}
+
+
+.main-center-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(165, 158, 158);
+  width: 100%;
+}
+
+.main-right-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(148, 141, 141);
+  width: 400px;
+}
+
+.main-left-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 222, 222);
+  width: 400px;
+}
+
+.main-section{
+  display: flex;
+  width: 100%;
+  height: 40rem;
 }
